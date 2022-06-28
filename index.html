@@ -1,0 +1,303 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harry Potter Y La Piedra Filosofal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge w3-text-black"><b>HARRY POTTER Y LA PIEDRA FILOSOFAL </b></h1>
+    <h6>¿Fantasia?¿Aventura? <span class="w3-tag">
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/Harry 2.filosofal.jpeg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-black">¿Curiosidad?</h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>¡La Magia Existe!</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">LEVITATORIO</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>La Piedra Filosofal</h3>
+          <h5>La leyenda de la inmortalidad
+              <span class="w3-opacity">MISTERIO</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="/img/harry-potter c.tario.webp" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> Harry Potter</strong> Se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. A partir de ese momento, la suerte de Harry da un giro espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos y tácticas de defensa contra las malas artes. Se convertirá en campeón escolar de quidditch, especie de fútbol aéreo que se juega montado sobre escobas, y hará un puñado de buenos amigos, aunque también algunos temibles enemigos. Sin embargo conocerá los secretos que le permitirán cumplir su destino. Aunque no lo parezca a primera vista, Harry no es un chico común y corriente: ¡Es un verdadero mago!
+          </p>
+          
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Avada Kedavra</b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/Piedra_Filosofal_PM.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><span class="w3-opacity w3-medium">La piedra filosofal es una legendaria sustancia alquímica que contendría los secretos para el rejuvenecimiento, el elixir de la vida y, finalmente, la inmortalidad. Dice la leyenda que esta increíble sustancia podría transformar metales en oro o plata.</span></h4></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>¿Estas listo para vivir una aventura fantastica?</h3>
+          <h5>Ha llegado tu turno <span class="w3-opacity">¡ES HORA!</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/Explicacion de harry potter.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Sumergete </strong> ¡En una divinidad!</p>
+          <p> La única manera de obtener la piedra era mirarse en el espejo, verse a sí mismo poseyéndola, pero no utilizándola. La mayoría de las personas se ven utilizándola, transformando las cosas en oro, elaborando Elixir de la Vida, o dándosela a alguien. Esto fue lo que vio Quirrell. Quirrell le ordenó Harry mirarse en el espejo, Harry se concentró en la búsqueda de la piedra, y, como no le interesaba utilizarla, vio a su reflejo guardarse la piedra en el bolsillo, momento en el que la piedra apareció mágicamente en el bolsillo real.</p>
+          <p class="w3-left"><b><i class=></i></b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>OESED</b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Harrypotter_M.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Harry Potter<span class="w3-opacity w3-medium"></span></h4>
+                <p>La verdad, es una cosa terrible y hermosa por lo tanto debe ser tratada con gran cuidado.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Hermonie Grager.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Hermione Granger<span class="w3-opacity w3-medium"></span></h4>
+                <p>Hay muchos tipos de valentia. Hay que tener un gran coraje para oponerse a nuesros enemigos , pero hace falta el mismo valor para hacerlo con los amigos.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Ron weasley.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ron Weasley<span class="w3-opacity w3-medium"></span></h4>
+                <p>Oir voces que nadie puede oir es mala señal, incluso en el mundo de los magos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/Hedwig.webp" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>HEDWIG</h4>
+          <p>Simboliza la inteligencia, la paciencia y sabiduría.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>ESCENAS RANDOM</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/Harry piedra.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-medium">"SABEMOS SOBRE LA PIEDRA FILOSOFAL"</span>
+            <br>
+            <span>Luego de una ardua investigación Harry, Ron y Hermione visitan a Hagrid para decirle que saben que en el castillo están protegiendo la Piedra Filosofal, durante la charla nace Norberto, un dragón que un forastero le dio a Hagrid. 
+
+              Es aquí cuando los pequeños magos deciden tomar cartas en el asunto y proteger la Piedra Filosofal.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/voldemort-.webp" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-medium">LA HISTORIA DE VOLDEMORT</span>
+            <br>
+            <span>El pequeño mago se conecta con el personaje más temido del mundo mágico.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/harry-serpiente.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-medium">HARRY HABLA CON UNA SERPIENTE EN EL ZOOLOGICO</span>
+            <br>
+            <span>Esta escena marca el comienzo de la vida mágica de Harry Potter, pues inconscientemente se da cuenta que tiene poderes que no son normales. </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/ajedrez-harry.png " alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-medium">JAQUE MATE</span>
+            <br>
+            <span>Esta escena marca un camino en la historia de Harry pues debe continuar solo para terminar su cometido, además demuestra que sin la ayuda de Hermione y Ron no lo hubiese podido lograr.</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>PERSONAJES</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Saga</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Harry Potter</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dumbledore</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Drako Malfoy</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Quirrell</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Neville</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hermione Granger</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sirius Black</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Severeus</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ron Weasley</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mc. Gonogal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Oliver</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Voldemort</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Rubeus</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>MAGIC</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/harry-espejo.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/harry-impresion.webp" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/juego-de-ajedrez-ha.webp" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/Piedra_Filosofal_PM.webp" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>SAGA</h4>
+        </div>
+        <div class="w3-container w3-medium w3-padding w3-black">
+        <p>°Harry Potter Y La Camara Secreta</p>
+        <p>°Harry Potter Y El Prisionero De Azkaban</p>
+        <p>°Harry Potter Y El Prisionero De Azkaban</p>
+        <p>°Harry Potter Y El Caliz De Fuego</p>
+        <p>°Harry Potter Y La Orden Del Fenix</p>
+        <p>°Harry Potter Y Las Reliquias De La Muerte</p>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Para Más Contenido</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Ingresa tu correo para mantenerte al día sobre las aventuras mágicas y fantásticas de Harry Potter.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-black">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
